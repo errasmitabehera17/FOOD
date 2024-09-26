@@ -1,0 +1,15 @@
+{
+  "name": "amazon-shopping",
+  "version": "1.0.0",
+  "description": "// help document\r - how to run project.\r - what to install for project\r - what is suitable environment for project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
