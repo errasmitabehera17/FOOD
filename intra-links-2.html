@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav,main{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .pic{
+            width:100px;
+            height:100px;
+            margin:100px;
+        }
+        .pic:target{
+            width:300px;
+            height:300px;
+            border-radius: 300px;
+            transition:4s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span><a href="#kids">Kids</a></span>
+        <span><a href="#women">Women</a></span>
+        <span><a href="#men">Men</a></span>
+    </nav>
+    <main>
+        <img src="images/Kids-Fashion.jpg" id="kids" class="pic">
+        <img src="images/Woman-Fashion.jpg" id="Women" class="pic">
+        <img src="images/Men-Fashion.jpg" id="men" class="pic">
+    </main>
+</body>
+</html>

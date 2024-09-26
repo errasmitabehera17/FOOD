@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper template</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+            grid-gap: 50px;
+
+        }
+        iframe{
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+        nav img{
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <nav>
+        <div><a href="./images/a9.jpg" target="frameBody"><img src="./images/a9.jpg" width="100" height="100"></a></div>
+        <div><a href="./images/a10.jpg" target="frameBody"><img src="./images/a10.jpg" width="100" height="100"></a></div>
+        <div><a href="./images/a11.jpg" target="frameBody"><img src="./images/a11.jpg" width="100" height="100"></a></div>
+        <div><a href="./images/a12.jpg" target="frameBody"><img src="./images/a12.jpg" width="100" height="100"></a></div>
+        <div>
+            <a href="./docs/Rasmita Behera.pdf" target="frameBody">Rasmiat PDF</a>
+        </div>
+        <div>
+            <a href="https://www.youtube.com/embed/kiAK3FcwUYA&quot; target="frameBody"> React JS - YouTube </a>
+        </div>
+        <div>
+            <a href="https://www.youtube.com/embed/Skeuvyso84Q&quot; target="frameBody">Bootstrap</a>
+        </div>
+    </nav>
+    <main>
+        <iframe name="frameBody"></iframe>
+
+    </main>
+   </section>
+</body>
+</html>

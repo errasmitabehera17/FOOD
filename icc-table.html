@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            font-size: 20px;
+            font-family: Arial;
+        }
+        td img {
+            width: 30px;
+        }
+        tbody tr:first-child {
+            font-size: 30px;
+            font-weight: bold;
+            color:white;
+        }
+        td .bi-chevron-up {
+            font-size: 16px;
+        }
+        td .bi-chevron-down {
+            font-size: 16px;
+        }
+        caption {
+            margin-bottom: 20px;
+            text-align: left;
+            color:gray;
+            font-weight: bold;
+        }
+        thead {
+            background-color: rgb(103, 103, 103);
+            color:white;
+        }
+    </style>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <table  width="80%" cellspacing="0" cellpadding="10">
+        <caption>Mens ICC Test Team Ratings</caption>
+        <colgroup span="4"></colgroup>
+        <thead>
+            <tr>
+                <th width="100">Pos</th>
+                <th width="200">Team</th>
+                <th width="50">Matches</th>
+                <th width="100">Pts</th>
+                <th width="50">Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr height="100" bgcolor="#007" valign="center">
+                <td align="center">01 <span class="bi bi-chevron-up">1</span> </td>
+                <td> <img src="images/india.jpg"> <span>INDIA</span> </td>
+                <td> 38 </td>
+                <td> 4636 </td>
+                <td> 122 </td>
+            </tr>
+            <tr bgcolor="#FFCC00">
+                <td align="center">02 <span class="bi bi-chevron-down">1</span> </td>
+                <td> <img src="images/aus.jpg"> <span>AUSTRALIA</span> </td>
+                <td> 37 </td>
+                <td> 5443 </td>
+                <td> 111 </td>
+            </tr>
+            <tr>
+                <td align="center">03 <span class="bi bi-chevron-down">3</span> </td>
+                <td> <img src="images/eng.jpg"> <span>ENGLAND</span> </td>
+                <td> 49 </td>
+                <td> 2939 </td>
+                <td> 109 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" bgcolor="lightgray">Last Update March 2024</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
